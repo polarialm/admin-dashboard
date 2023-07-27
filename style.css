@@ -1,0 +1,21 @@
+:root {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    height: 100%;
+    margin: 0;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+header {
+}
+
+.sidebar {
+    background-color: lightcoral;
+}
+
+main {
+    background-color: lightslategrey;
+}
