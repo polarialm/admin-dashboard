@@ -7,6 +7,7 @@ body {
     height: 100%;
     margin: 0;
     grid-template: 1fr 6fr / 1fr 4fr;
+    font-family: Inter, sans-serif;
 }
 
 h2 {
@@ -32,6 +33,16 @@ header {
     column-gap: 8px;
 }
 
+.search-icon {
+    height: 21px;
+}
+
+.search-icon img,
+.notif img {
+    height: 21px;
+    width: 21px;
+}
+
 .search-bar-container {
     flex-grow: 1;
 }
@@ -44,13 +55,23 @@ header {
 .header-right {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    justify-items: center;
+    justify-items: end;
     justify-self: end;
+    column-gap: 12px;
+}
+
+.notif {
+    align-self: center;
 }
 
 .user {
     display: flex;
     column-gap: 8px;
+    align-items: center;
+}
+
+#user-profile img {
+    border-radius: 50%;
 }
 
 .header-bottom {
