@@ -1,3 +1,10 @@
+/*
+Colors
+Primary: #3F4045
+Secondary: #D2DAD2
+Tertiary: #FFE882
+*/
+
 :root {
     height: 100%;
 }
@@ -106,12 +113,13 @@ header {
 }
 
 .sidebar {
-    background-color: lightcoral;
+    background-color: #3F4045;
     grid-area: 1 / 1 / span 2 / 1;
     display: grid;
     grid-template-rows: auto 1fr 1fr;
     row-gap: 48px;
     height: 100%;
+    color: white;
 }
 
 .side-logo {
@@ -162,7 +170,7 @@ header {
 
 
 main {
-    background-color: lightslategrey;
+    background-color: #D2DAD2;
     grid-area: 2 / 2 / span 1 / 2;
     padding: 32px;
     display: grid;
@@ -237,7 +245,7 @@ main>h2 {
 }
 
 .stripe {
-    background-color: rgb(255, 208, 0);
+    background-color: #FFE882;
     border-radius: 6px 0px 0px 6px;
 }
 
