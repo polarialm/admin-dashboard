@@ -70,7 +70,8 @@ header {
     align-items: center;
 }
 
-#user-profile img {
+#user-profile img,
+.user-avi img {
     border-radius: 50%;
 }
 
@@ -80,14 +81,21 @@ header {
 }
 
 .header-bottom h2,
-.header-bottom h3 {
+.header-bottom h3,
+.header-bottom h4 {
     margin: 0;
 }
 
 .hi-user {
     display: flex;
-    column-gap: 32px;
+    column-gap: 16px;
     justify-self: start;
+    align-self: center;
+}
+
+.user-text {
+    display: grid;
+    grid-template: auto auto;
 }
 
 #header-buttons {
