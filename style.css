@@ -220,6 +220,14 @@ main {
     gap: 16px;
 }
 
+.announce-content h3 {
+    font-size: medium;
+}
+
+.announce-content p {
+    font-size: small;
+}
+
 .trending {
     grid-area: 2 / 2 / 2 / 2;
     display: grid;
@@ -314,4 +322,8 @@ main>h2 {
 .trend-avi img {
     height: 56px;
     border-radius: 50%;
+}
+
+.trend-text>* {
+    font-size: medium;
 }
