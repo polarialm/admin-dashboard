@@ -292,6 +292,7 @@ main>h2 {
 .stripe {
     background-color: #FFE882;
     border-radius: 6px 0px 0px 6px;
+    max-height: 250px;
 }
 
 .announcements .grid-cell {
