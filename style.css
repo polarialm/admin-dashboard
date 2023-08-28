@@ -27,6 +27,9 @@ header {
     grid-template-rows: auto 2fr;
     padding: 16px 32px 16px 32px; 
     row-gap: 32px;
+    box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 10;
 }
 
 .header-top {
@@ -135,9 +138,10 @@ header {
     display: grid;
     grid-template-rows: auto 1fr 1fr;
     row-gap: 48px;
-    
     color: white;
     padding: 12px;
+    position: relative;
+    z-index: 10
 }
 
 .side-logo {
