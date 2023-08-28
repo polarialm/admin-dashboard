@@ -127,8 +127,9 @@ header {
     display: grid;
     grid-template-rows: auto 1fr 1fr;
     row-gap: 48px;
-    height: 100%;
+    
     color: white;
+    padding: 12px;
 }
 
 .side-logo {
@@ -158,7 +159,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    column-gap: 16px;
+    column-gap: 12px;
     
 }
 
@@ -177,6 +178,13 @@ header {
     margin: 0px;
 }
 
+/*height="24px" width="auto"*/
+
+.side-nav>* img {
+    filter: invert(1);
+    height: 24px;
+    width: auto;
+}
 
 main {
     background-color: #D2DAD2;
@@ -186,7 +194,6 @@ main {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, min-content);
     gap: 24px;
-
 }
 
 .your-projects {
@@ -203,6 +210,7 @@ main {
     height: 100%;
     gap: 32px;
 }
+
 
 .announcements {
     grid-area: 1 / 2 / 1 / 2;
@@ -253,6 +261,12 @@ main>h2 {
     gap: 24px;
 }
 
+.reactions img {
+    height: 24px;
+    width: auto;
+    filter: invert(25%)
+}
+
 .stripe {
     background-color: #FFE882;
     border-radius: 6px 0px 0px 6px;
@@ -295,4 +309,9 @@ main>h2 {
 
 .trend-avi {
     grid-area: 1 / 1 / span 2 / 1
+}
+
+.trend-avi img {
+    height: 56px;
+    border-radius: 50%;
 }
